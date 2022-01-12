@@ -26,3 +26,12 @@ $college = array(
 echo "10.Les élèves du collège : <br>";
 
 //Ajoutez votre code ici
+
+foreach ($college as $key => $value) {
+    echo $key . ' : ';
+    foreach ($value as $name) {
+        foreach ($name as $fname) {
+            echo $fname . ' - ';
+        }
+    }
+}

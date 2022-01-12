@@ -33,4 +33,23 @@ echo "Je dors enfin...<br><br>";
 
 
 // TODO Votre code ici !
+$nombreVache = 1;
 
+while ($nombreVache <= 25){
+    echo $nombreVache .' vache <br>';
+    $nombreVache ++;
+}
+
+echo '<br><br>';
+
+$nombreVache = 1;
+$dormir = false;
+
+while ($dormir === false) {
+    echo $nombreVache . " vache <br>";
+    $nombreVache++;
+    if ($nombreVache > 5) {
+        $dormir = true;
+    }
+}
+echo "Je dors enfin...<br><br>";
